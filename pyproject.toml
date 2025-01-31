@@ -1,0 +1,13 @@
+[project]
+name = "agi-exp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.1.8",
+    "datasets>=3.2.0",
+    "transformers>=4.48.2",
+    "vllm>=0.7.0",
+    "wandb>=0.19.5",
+]
